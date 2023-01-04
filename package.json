@@ -35,8 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/diabl0570/shared-store-hook.git",
-    "directory": "out"
+    "url": "https://github.com/Diabl0570/shared-store-hook.git"
   },
   "keywords": [
     "hook",
