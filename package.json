@@ -1,5 +1,5 @@
 {
-  "name": "shared-store-hook",
+  "name": "@diabl0570/shared-store-hook",
   "version": "0.0.5",
   "description": "Shared state for React components. Just like useState, but shared.",
   "author": "David Cho-Lerat <github@david.cho-lerat.com>",
@@ -30,9 +30,13 @@
     "test:no-watch": "npm test -- --watchAll=false",
     "test": "jest --runInBand --watchAll=true"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/diabl0570"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qosenergy/shared-store-hook.git"
+    "url": "ssh://git@github.com/diabl0570/shared-store-hook.git",
+    "directory": "out"
   },
   "keywords": [
     "hook",
