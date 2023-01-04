@@ -1,6 +1,6 @@
 {
   "name": "@diabl0570/shared-store-hook",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Shared state for React components. Just like useState, but shared.",
   "author": "David Cho-Lerat <github@david.cho-lerat.com>",
   "license": "ISC",
