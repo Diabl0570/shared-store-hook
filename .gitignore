@@ -1,5 +1,5 @@
 coverage
-lib
+# lib
 node_modules
 nohup.out
 .vscode
