@@ -23,7 +23,7 @@
     "prelint": "npm run prettier",
     "pretest": "\\rm -rf coverage/",
     "prettier": "prettier --write './{scripts,src}/*.ts' .eslintrc.js package.json tsconfig.json",
-    "publish": "ts-node --dir scripts publish.ts",
+    "publish2": "ts-node --dir scripts publish.ts",
     "test:ci": "CI=true && npm run lint && npm run test:coverage:no-watch && npm run build",
     "test:coverage": "npm test -- --coverage",
     "test:coverage:no-watch": "npm test -- --watchAll=false --coverage",
